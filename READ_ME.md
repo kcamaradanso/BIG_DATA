@@ -243,16 +243,3 @@ Taux_CryoSleep =
 | H8 — CryoSleep = 0 dépense (confinement cabine) |  Confirmé |
 
 ---
-
-##  Corrections appliquées au pipeline
-
-| Bug | Cause | Fix |
-|-----|-------|-----|
-| `ValueError: Input X contains NaN` | `groupby` ignore les NaN → `FamilySize` reste NaN pour les 200 passagers sans nom | `fillna(1).astype(int)` après le `transform` |
-| `ValueError: Input X contains NaN` | `Deck`, `CabinNum`, `Side` non imputés explicitement | `fillna(mode)` ajouté en section 1.4 |
-| `ValueError: Shape (26,10) vs (26,26)` | `col_c.shape[0]` au lieu de `col_c.shape[1]` dans `column_coordinates` | `shape[0]` → `shape[1]` |
-| `TypeError: lambda a, b, **k` | Lambda Gini déclarait 2 positional args | `lambda a, b, **k` → `lambda a, **k` |
-| `NameError: mpatches` | Import manquant | `import matplotlib.patches as mpatches` ajouté |
-| `SyntaxError: unterminated string literal` | Apostrophe dans `d'âge` dans une string Python | Guillemets doubles `"..."` |
-
----
