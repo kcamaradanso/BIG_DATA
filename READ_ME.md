@@ -45,7 +45,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn scipy openpyxl
 
 ---
 
-## 📊 Description des données
+##  Description des données
 
 | Variable | Type | Description |
 |----------|------|-------------|
@@ -233,14 +233,14 @@ Taux_CryoSleep =
 
 | Hypothèse | Résultat |
 |-----------|----------|
-| H1 — CryoSleep → transport plus probable | ✅ Confirmé (~80% transportés si CryoSleep) |
-| H2 — Europa → taux transport et cryo plus élevés | ✅ Confirmé |
-| H3 — Decks B & C → fort taux CryoSleep et transport | ✅ Confirmé |
-| H4 — Europa concentre le plus de CryoSleep | ✅ Confirmé |
-| H5 — Passagers d'Europa voyagent sur des decks spécifiques | ✅ Confirmé |
-| H6 — Mars → plus souvent seul | ✅ Confirmé |
-| H7 — Deck avec fort CryoSleep → fort transport | ✅ Confirmé |
-| H8 — CryoSleep = 0 dépense (confinement cabine) | ✅ Confirmé |
+| H1 — CryoSleep → transport plus probable |  Confirmé (~80% transportés si CryoSleep) |
+| H2 — Europa → taux transport et cryo plus élevés |  Confirmé |
+| H3 — Decks B & C → fort taux CryoSleep et transport |  Confirmé |
+| H4 — Europa concentre le plus de CryoSleep |  Confirmé |
+| H5 — Passagers d'Europa voyagent sur des decks spécifiques |  Confirmé |
+| H6 — Mars → plus souvent seul |  Confirmé |
+| H7 — Deck avec fort CryoSleep → fort transport |  Confirmé |
+| H8 — CryoSleep = 0 dépense (confinement cabine) |  Confirmé |
 
 ---
 
